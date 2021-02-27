@@ -13,7 +13,7 @@ Application will run on http://localhost:4000/
 ### 2. Node API
 To run this application type the following in the console:
 > npm install  
-> npm start
+> nodemon server.js
 
 Application will run on http://localhost:3000/
 
