@@ -2,7 +2,7 @@
 
 This repository consists of 2 projects:
 
-### 1. React Front End - reactjs-note folder
+### 1. React Front End - (reactjs-note folder)
 
 To run this application type in the following in the console:
 > npm install  
@@ -10,7 +10,7 @@ To run this application type in the following in the console:
 
 Application will run on http://localhost:4000/
 
-### 2. Node API api-note folder
+### 2. Node API - (api-note folder)
 To run this application type the following in the console:
 > npm install  
 > nodemon server.js
