@@ -1,0 +1,112 @@
+html,
+body,
+.note-wrapper-single {
+	height: 100%;
+}
+
+.App {
+	height: 100%;
+	text-align: center;
+}
+
+.App-logo {
+	animation: App-logo-spin infinite 20s linear;
+	height: 80px;
+}
+
+.App-header {
+	background-color: #222;
+	height: 150px;
+	padding: 20px;
+	color: white;
+}
+
+.App-title {
+	font-size: 1.5em;
+}
+
+.App-intro {
+	font-size: large;
+}
+
+.notes-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 100%;
+}
+
+.list-notes-top {
+	height: 100%;
+	width: 30%;
+	padding: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.current-note {
+	height: 100%;
+	width: 68%;
+  border-width: 2px;
+  border: CornflowerBlue;
+  border-radius: 5px;
+  border-style:solid;
+  margin-top: 1em;
+}
+
+.list-item-top {
+	border: 2px solid CornflowerBlue;
+  border-radius: 5px;
+	text-align: left;
+  margin: 5px 10px 5px 0px;
+}
+
+.list-item {
+	list-style: none;
+	text-align: left;
+	height: 30px;
+	display: inline-flex;
+	width: 90%;
+  padding:5px;
+  color:grey;
+}
+
+.delete-note {
+	position: absolute;
+}
+
+.add-note,
+.delete-note {
+	border-radius: 50%;
+	float: right;
+}
+
+.add-note {
+	margin: 20px 440px 10px;
+}
+
+input[type='text'] {
+	height: 30px;
+	width: 90%;
+	border: none;
+	resize: none;
+	color: grey;
+	font-size: 25px;
+}
+
+textarea {
+	height: 405px;
+	width: 90%;
+	border: none;
+	resize: none;
+	scroll-behavior: auto;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
