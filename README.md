@@ -5,14 +5,14 @@ This repository consists of 2 projects:
 ### 1. React Front End
 
 To run this application type in the following in the console:
-> npm install
+> npm install  
 > npm start
 
 Application will run on http://localhost:4000/
 
 ### 2. Node API
 To run this application type the following in the console:
-> npm install
+> npm install  
 > npm start
 
 Application will run on http://localhost:3000/
